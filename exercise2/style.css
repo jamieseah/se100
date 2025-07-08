@@ -5,14 +5,14 @@
 
 
 /* Style company information */ 
-.company-info p {
+.company-info {
   background-color: #f0f0f0;
   padding: 10px;
 }
 
 
 /* Style stock details */ 
-.stock-details h2 {
+.stock-details {
   margin-top: 20px;
 }
 
@@ -24,11 +24,11 @@
 
 
 /* Style specific paragraphs within stock details using the descendant combinator */ 
-.current-price {
+.stock-details .current-price {
   color: green;
 }
 
 /* Style specific paragraphs within stock details using the descendant combinator */
-.price-change {
+.stock-details .price-change {
   color: red;
 }
